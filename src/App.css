@@ -17,7 +17,7 @@ margin:0.7rem;
 }
 .card{
 width:18rem;
-height: min-content;
+height: fit-content;
 background-color: #f1f1f1;
 margin:2rem;
 padding:2rem 1rem;
