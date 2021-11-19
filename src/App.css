@@ -1,38 +1,55 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+background: #007bff;
+font-family: 'Poppins', sans-serif;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.cards-container{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.card li{
+list-style: none;
+margin:0.7rem;
 }
-
-.App-link {
-  color: #61dafb;
+.card{
+width:18rem;
+height: min-content;
+background-color: #f1f1f1;
+margin:2rem;
+padding:2rem 1rem;
+transition: all 0.2s;
+border-radius:1.5rem;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card:hover {
+margin-top: -0.2rem;
+ margin-bottom: .3rem;
+ box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+ }
+.card-title{
+font-size:1.2rem;
+margin:0;
+color:darkslategray;
+text-transform: uppercase;
+letter-spacing: 2px;
+}
+.card-price{
+font-size:2.5rem;
+margin:0.5rem 0 1rem 0;
+font-weight: 700;
+}
+.text-light{
+color:grey;
+}
+.month{
+font-size:0.8rem;
+}
+.detail-container{
+font-size:1rem;
+display: flex;
+flex-direction: column;
+text-align:left;
 }
