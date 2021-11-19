@@ -1,5 +1,4 @@
 import './App.css';
-import Button from '@mui/material/Button';
 export default function App() {
   return (
     <div className="App">
@@ -8,8 +7,7 @@ export default function App() {
   );
 }
 function PricePlan() {
-  const styles = {
-    borderRadius:"0.5rem",width:"max-content"}
+
   return (
     <section className="cards-container">
     <div className="card">
@@ -31,7 +29,7 @@ function PricePlan() {
       Reports</li>
       </ul>
       <div className ="button">
-          <Button style={styles} variant="contained">Subscribe</Button>
+          <button className="subscribe">SUBSCRIBE</button>
       </div>
       </div>
 <div className="card">
@@ -50,7 +48,7 @@ function PricePlan() {
                 Reports</li>
             </ul>
             <div className="button">
-            <Button  style={styles} variant="contained">Subscribe</Button>
+          <button className="subscribe">SUBSCRIBE</button>
             </div>
           </div>
  <div className="card">
@@ -70,7 +68,7 @@ function PricePlan() {
               <li><i className="fas fa-check"></i> Monthly Status Reports</li>
             </ul>
             <div className="button">
-            <Button  style={styles} variant="contained">Subscribe</Button>
+          <button className="subscribe">SUBSCRIBE</button>
             </div>
           </div>
 
